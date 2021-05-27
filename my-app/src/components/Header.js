@@ -1,4 +1,7 @@
+import Subheader from './Subheader';
+
 const Header = () => 
+    <>
         <header className= 'header'>
             <div className='header__user'>
                 <i className='far fa-user header__user--icon'></i>
@@ -6,5 +9,7 @@ const Header = () =>
                 <button className='fas fa-angle-down header__user--button'></button>
             </div>
         </header>
+        <Subheader/>
+    </>
 
 export default Header;
