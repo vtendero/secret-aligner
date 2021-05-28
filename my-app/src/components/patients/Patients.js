@@ -1,5 +1,5 @@
 import PatientDetail from './PatientDetail';
-import '../styles/Patients.scss';
+import '../../styles/patients/Patients.scss';
 
 const Patients = (props) => {
     const patientItem = Object.entries(props.patients).map(([id, patient]) => {

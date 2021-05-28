@@ -1,0 +1,14 @@
+@import '../core/Variables.scss';
+
+.actions {
+    &__select {
+        width: 120px;
+        height: 40px;
+        background: none;
+        border-radius: 10px;
+        border: 2px solid $greyColor;
+        cursor: pointer;
+        text-align-last: center;
+        outline: 0 none;
+    }
+}

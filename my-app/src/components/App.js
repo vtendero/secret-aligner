@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, {useState} from 'react';
 import Header from './Header';
-import Patients from './Patients';
+import Patients from '../components/patients/Patients';
 import patients from '../data/pacientes.json';
 
 const App = () => {

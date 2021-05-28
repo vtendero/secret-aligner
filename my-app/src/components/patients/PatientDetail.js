@@ -1,4 +1,5 @@
-import '../styles/PatientDetail.scss';
+import '../../styles/patients/PatientDetail.scss';
+import ActionSelector from './ActionSelector';
 
 const PatientDetail = (props) => {
     return (
@@ -17,7 +18,7 @@ const PatientDetail = (props) => {
             <h4 className='patientDetail__goal'>{props.patient.ficha_dental.objetivo_tratamiento}</h4>
             <h4 className='patientDetail__distributor'>Secret Aligner</h4>
             <h4 className={`patientDetail__status ${props.patient.ficha_dental.estado}`}>{props.patient.ficha_dental.estado}</h4>
-            <button className='patientDetail__doings'>Acciones <i className='fas fa-chevron-down'></i></button>
+            <ActionSelector />
         </div>
     )
 }
