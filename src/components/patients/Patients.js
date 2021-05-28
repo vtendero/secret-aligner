@@ -3,7 +3,7 @@ import PatientsNavigator from '../navigator/PatientsNavigator';
 import '../../styles/patients/Patients.scss';
 
 const Patients = (props) => {
-    const patientItem = Object.entries(props.patients).map(([id, patient]) => {
+    const patientItem = Object.values(props.patients).map(([id, patient]) => {
         return (
             <li key={id} className='patients__patientList--item'>
                 <PatientDetail patient={patient}/>
