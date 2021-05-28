@@ -1,0 +1,26 @@
+@import '../core/Variables.scss';
+
+.patientsNavigator {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    &__headline {
+        display: flex;
+        align-items: center;
+
+        &--icon {
+            margin-right: 15px;
+        }
+
+        &--title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        &--text {
+            color: $greyColor;
+            font-size: 14px;
+        }
+    }
+}

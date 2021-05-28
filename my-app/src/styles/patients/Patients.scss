@@ -1,5 +1,9 @@
 @import '../core/Variables.scss';
 
+.main {
+    padding: 10px 30px 30px 50px;
+}
+
 .patients {    
     &__header {
         display: grid;

@@ -1,0 +1,25 @@
+@import '../core/Variables.scss';
+
+.filterByName {
+    align-self: flex-end;
+    position: absolute;
+    background: $lightGreyColor;
+    border-radius: 5px;
+
+    &__form {
+        &--icon {
+            padding: 10px;
+        }
+        
+        &--input {
+            width: 450px;
+            height: 40px;
+            border-radius: 50px;
+            background: $lightGreyColor;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+    }
+        
+}

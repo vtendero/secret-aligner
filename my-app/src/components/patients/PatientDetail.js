@@ -10,7 +10,7 @@ const PatientDetail = (props) => {
                 <div className='patientDetail__personal--containerName'>
                     <h4 className='patientDetail__personal--name'>{props.patient.datos_paciente.nombre + ' ' + props.patient.datos_paciente.apellidos}</h4>
                     <h5 className='patientDetail__personal--date'> 
-                        <i class='far fa-calendar-alt'></i> {props.patient.datos_paciente.fecha_nacimiento}
+                        <i className='far fa-calendar-alt'></i> {props.patient.datos_paciente.fecha_nacimiento}
                     </h5>
                 </div>
             </div>

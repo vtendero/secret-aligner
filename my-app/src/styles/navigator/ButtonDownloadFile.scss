@@ -1,0 +1,18 @@
+@import '../core/Variables.scss';
+
+.buttonDownloadFile {
+    color: $blueColorButtons;
+    background: $whiteColor;
+    border: 1.5px solid $blueColorButtons;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+
+    &__icon {
+        margin-right: 10px;
+    }
+}

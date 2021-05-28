@@ -1,0 +1,26 @@
+@import '../core/Variables.scss';
+
+.display {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+    &__viewingMode {
+        &--icon {
+            padding: 3px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    }
+    
+    &__itemsPerPage {
+        display: flex;
+        list-style-type: none;
+        
+        &--item {
+            margin-right: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
