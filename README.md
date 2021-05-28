@@ -14,25 +14,25 @@ La lista de tareas es:
     - La lista se debe poner descargarse en un csv
     - Tendrá dos modos de visionado, en lista o en tarjetas
     - Opción de elementos por página, poder elegir cuantos elementos se muestran por pagina
-    ✔️ El buscador tendrá que buscar por nombre y/o apellidos del paciente
-    ✔️ El desplegable “Acciones”, debe mostrar las siguientes opciones, en vista tarjetas las opciones se muestran como botones:
-         - Editar
-         - Finalizar
-         - Borrar
-    ✔️ Cambiar las siguiente columnas:
-         - Dirección > Objetivo Tratamiento
-    ✔️ Las columnas "Dentista" y "Disttribuidor" no son necesarias
-2. El botón “Nuevo Paciente” abrirá una modal con las siguiente caracterizas:
-    ✔️ Nombre > Text
-    ✔️Apellidos > Text
-    ✔️Fecha de naciemiento > DatePicker
-    ✔️Sexo > Select(Masculino, Femenino)
-    ✔️Clínica > Text
-    ✔️Recorte Alineadores > Checkbox (Recortar dejando 1-3 mm de encía, Recortar a nivel de los cuellos)
-    ✔️¿SecretRetainer? > Checkbox (SI, NO)
-    ✔️Tres botones de acción:
+    - El buscador tendrá que buscar por nombre y/o apellidos del paciente ✔️
+    - El desplegable “Acciones”, debe mostrar las siguientes opciones, en vista tarjetas las opciones se muestran como botones: ✔️
+         - Editar ✔️
+         - Finalizar ✔️
+         - Borrar ✔️
+    - Cambiar las siguiente columnas:✔️
+         - Dirección > Objetivo Tratamiento ✔️
+    - Las columnas "Dentista" y "Disttribuidor" no son necesarias ✔️
+2. El botón “Nuevo Paciente” abrirá una modal con las siguiente caracterizas:✔️
+    - Nombre > Text ✔️
+    - Apellidos > Text ✔️
+    - Fecha de naciemiento > DatePicker ✔️
+    - Sexo > Select(Masculino, Femenino) ✔️
+    - Clínica > Text ✔️
+    - Recorte Alineadores > Checkbox (Recortar dejando 1-3 mm de encía, Recortar a nivel de los cuellos)
+    - ¿SecretRetainer? > Checkbox (SI, NO) ✔️
+    - Tres botones de acción: ✔️
         - Guardar > guardara en formulario enviado al backend los datos del formulario, no es necesario dicha funcionalidad
-        ✔️Cancelar > cerrar el model, pero no borra los campos rellenos
+        - Cancelar > cerrar el model, pero no borra los campos rellenos ✔️
         - Limpiar > borra todas las entradas del formulario
 3. Al pulsar sobre un paciente de la lista se abrirá en una modal la ficha del paciente según muestra el [Anexo-Ficha Paciente](https://github.com/secretaligner/pruebas-tecnicas/blob/main/frontend/Anexo-Ficha%20Paciente.pdf). 
 Dicha información se debe descargar en un PDF. Los dientes que no se mueven, aparecen en la ficha marcados con un círculo rojo
@@ -41,14 +41,10 @@ Dicha información se debe descargar en un PDF. Los dientes que no se mueven, ap
 ### Tiempo estimado
 
 #### Tarea 1
-```
-Aproximadamente 9H:00M
-```
+Aproximadamente 9 horas
 
 #### Tarea 2
-```
-Aproximadamente 1H:30M
-```
+Aproximadamente 1.5 horas
 
 
 ### Scripts to start the project
