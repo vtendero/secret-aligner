@@ -25,7 +25,7 @@ const PatientsNavigator = (props) => {
             </div>
 
             <div className='patientsNavigator__buttons'>
-                <ButtonNewPatient />
+                <ButtonNewPatient handleNewPatient={props.handleNewPatient}/>
                 <ButtonDownloadFile />
             </div>
 

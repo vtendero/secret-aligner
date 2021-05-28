@@ -1,0 +1,32 @@
+@import '../core/Variables.scss';
+
+.modal {
+    position:fixed;
+    margin-left: 150px;
+    top: 10px;
+    background: $modal;
+    border: 1px solid black;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        padding: 20px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+
+        &--item {
+            margin:10px;
+            background: &greyColor;
+            border-radius: 5px;
+            border: none;
+            width: 70px;
+            height: 30px;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}

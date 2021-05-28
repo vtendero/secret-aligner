@@ -16,6 +16,7 @@ const Patients = (props) => {
             <PatientsNavigator 
                 nameFilter={props.nameFilter}
                 handleFilter={props.handleFilter}
+                handleNewPatient={props.handleNewPatient}
             />
             <section className='patients'>
             <ul className='patients__header'>
