@@ -1,0 +1,36 @@
+@import 'core/variables';
+
+.header {
+    background: $headerColor;
+    color: $whiteColor;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding-right: 50px;
+
+    &__icon {
+        padding: 7px;
+        margin: 10px;
+        border: 1px solid white;
+        border-radius: 35px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    &__admin {
+        font-size: 12px;
+    }
+
+    &__button {
+        background: none;
+        border: none;
+        color: $whiteColor;
+        margin: 10px;
+        cursor: pointer;
+        padding: 5px;
+    }
+}

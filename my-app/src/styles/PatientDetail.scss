@@ -1,0 +1,77 @@
+@import 'core/variables';
+
+.patientDetail {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    border: 1px solid $greyColor;
+    align-items: center;
+    padding: 10px;
+    // align-items: center;
+    //     justify-content: center;
+    //     align-content: center;
+
+    &__personal {
+        display: flex;
+        align-items: center;
+
+        &--image {
+            padding: 5px 10px 5px;
+            border-radius: 50px;
+        }
+        
+        &--containerName {
+            text-align: left;
+        }
+
+        &--date {
+            padding-top: 5px;
+            color: $greyColor;
+        }
+    }
+
+    &__status {
+        text-transform: capitalize;
+        font-weight: bold;
+        color: $whiteColor;
+        width: 140px;
+        height: 45px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        background: $greyColor;
+        margin-left: 25px;
+    }
+
+    &__doings {
+        width: 120px;
+        height: 40px;
+        background: none;
+        border-radius: 10px;
+        border: 2px solid $greyColor;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+}
+
+.facturado {
+    background: $invoicedStatus;
+}
+
+.aceptado {
+    background: $acceptedStatus;
+}
+
+.solicitado {
+    background: $requestedStatus;
+}
+
+.planificando {
+    background: $planningStatus;
+}
+
+.enviado {
+    background: $sentStatus;
+}
