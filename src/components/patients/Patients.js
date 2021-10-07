@@ -17,6 +17,7 @@ const Patients = (props) => {
                 nameFilter={props.nameFilter}
                 handleFilter={props.handleFilter}
                 handleNewPatient={props.handleNewPatient}
+                patients={props.patients}
             />
             <section className='patients'>
             <ul className='patients__header'>

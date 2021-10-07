@@ -5,7 +5,7 @@ import Modal from '../components/navigator/Modal';
 import patients from '../data/pacientes.json';
 
 const App = () => {
- const [data, setData] = useState(patients);
+ const [data] = useState(patients);
  const [nameFilter, setNameFilter] = useState('');
  const [modalOpen, setModalOpen] = useState(false);
 
